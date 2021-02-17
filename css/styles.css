@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: #f7f7e8;
+  overflow: scroll;
+}
+h1{
+  font-weight: 300;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.right{
+  flex: 1;
+  justify-content: center;
+}
+
+/*SignIn*/
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 80%;
+  padding-bottom: 1rem;
+}
+
+.logo{
+  padding-bottom: 1rem;
+}
+
+.signin form{
+  width: 80%;
+}
+.signin label{
+  line-height: 2rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.text-input{
+  line-height: 2rem;
+  margin-bottom: 1.3rem;
+  width: 100%;
+  background-color:  black;
+  border-radius: 0.2rem;
+  border: 1px solid white;
+}
+.primary-btn{
+  width: 100%;
+  height: 2.5rem;
+  background-color: #f58634;
+  border-radius: 4px;
+}
+
+.or , .secondary-btn , .links{
+  width: 60%;
+  display: block;
+}
+.links{
+  line-height: 2rem;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.or{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.right{
+  background-image: url(curtain.jpg);
+  background-repeat: no-repeat;
+  position: center;
+  background-size: cover;
+  background-position: center;
+}
